@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1575219017 source:c:\users\carnita\desktop\oclasa\main.cpp
+	<iostream>
+	"BecReglabil.h"
+
+1575219227 source:c:\users\carnita\desktop\oclasa\src\becreglabil.cpp
+	"BecReglabil.h"
+	<iostream>
+
+1575219017 c:\users\carnita\desktop\oclasa\include\becreglabil.h
+
