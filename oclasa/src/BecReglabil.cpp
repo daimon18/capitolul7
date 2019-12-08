@@ -36,12 +36,12 @@ using namespace std;
 
         void BecReglabil::MaresteLumina(short par) //primește un parametru de tip short
     {
+            aprins=true; //pune aprins pe true
         putereCurenta=putereCurenta+par; //crește valoarea lui putereCurenta cu parametrul primit
             if(putereCurenta>putereMaxima) //dacă în urma adunării, putereCurenta > putereMaxima, modifică valoarea lui putereCurenta încât să fie egal cu putereMaxima
         {
            putereCurenta=putereMaxima;
         }
-        aprins=true; //pune aprins pe true
     }
 
         void BecReglabil::ReduceLumina(short param)
@@ -53,7 +53,7 @@ using namespace std;
             }
         else if (putereCurenta=0) //daca putereCurenta e 0,pune aprins pe false
         {
-            aprins=false;
+             aprins=false;
         }
 
     }
