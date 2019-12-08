@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1575811150 source:c:\users\carnita\desktop\douaclase\include\becreglabil.cpp
+	"BecReglabil.h"
+	<iostream>
+
+1575219017 c:\users\carnita\desktop\douaclase\include\becreglabil.h
+
+1575817173 source:c:\users\carnita\desktop\douaclase\main.cpp
+	<iostream>
+	"Candelabru.h"
+
+1575817331 source:c:\users\carnita\desktop\douaclase\src\candelabru.cpp
+	"Candelabru.h"
+	"BecReglabil.h"
+
+1575816857 c:\users\carnita\desktop\douaclase\include\candelabru.h
+	"BecReglabil.h"
+
