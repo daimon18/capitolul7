@@ -59,7 +59,7 @@ using namespace std;
 
         void BecReglabil::StareaBec()
         {
-            if (aprins)
+            if (aprins==true)
             {
                 cout<<"Becul e aprins"<<endl;
             } //dacă aprins e true afișează „Becul e aprins”
